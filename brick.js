@@ -2,9 +2,17 @@
 /*
  * brick.js — Brick Layers: interlocking layers for FDM G-code
  *
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ *
  * Faithful JavaScript port of GeekDetour/BrickLayers (GPL-3.0, Everson Siqueira),
  * itself an implementation of the "Brick Layers" method popularised by
  * CNC Kitchen (https://youtu.be/5hGm6cubFVs).
+ *
+ * The upstream is GPL-3.0; relicensing the combined work under AGPL-3.0 is
+ * permitted by the GPL-3.0 compatibility clause (section 13), which allows
+ * GPL-3.0 material to be combined with AGPLv3-covered material. Both sets of
+ * obligations therefore apply: if you modify this project and serve it over
+ * a network, you must offer the corresponding source to your users.
  *
  * What it does: on every other layer, the inner perimeters are printed at
  * Z + layerHeight/2 instead of Z. The result is a hexagonal (brick-wall)

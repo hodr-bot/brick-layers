@@ -12,9 +12,15 @@ Mesures de CNC Kitchen (source de la méthode) : +14 % de résistance en PLA, +1
 
 ## Utilisation
 
-Ouvrir `index.html` dans un navigateur, déposer un `.gcode`, cliquer sur Convertir.
+**Version en ligne, rien à installer :**
 
-Rien ne quitte l'appareil : la conversion est faite en JavaScript dans l'onglet.
+**→ https://hodr-bot.github.io/brick-layers/**
+
+Tu déposes ton `.gcode`, tu cliques, tu récupères le fichier converti. La conversion tourne entièrement dans l'onglet.
+
+Pour l'utiliser hors ligne : ouvrir `index.html` dans un navigateur.
+
+Rien ne quitte l'appareil dans les deux cas : pas de serveur, pas d'envoi, pas de dépendance.
 
 ### Réglages du slicer, avant de trancher
 
@@ -52,6 +58,12 @@ Le dossier `test/golden/real_orca.gcode` est un vrai fichier slice (PrusaSlicer,
 
 ## Crédits
 
-Portage JavaScript de [GeekDetour/BrickLayers](https://github.com/GeekDetour/BrickLayers) (GPL-3.0, Everson Siqueira), qui implémente la méthode décrite par Stefan Hermann / CNC Kitchen dans [Brick Layers](https://youtu.be/5hGm6cubFVs).
+Portage JavaScript de [GeekDetour/BrickLayers](https://github.com/GeekDetour/BrickLayers) (Everson Siqueira), qui implémente la méthode décrite par Stefan Hermann / CNC Kitchen dans [Brick Layers](https://youtu.be/5hGm6cubFVs).
 
 Le principe du décalage demi-couche est décrit depuis longtemps (brevet Batchelder US005653925A de 1995, EP0852760B1 de 1996).
+
+## Licence
+
+**AGPL-3.0-or-later.**
+
+L'upstream étant en GPL-3.0, la combinaison est permise par la clause de compatibilité de la GPL-3.0 §13, qui autorise explicitement à combiner une œuvre GPL-3.0 avec de l'AGPLv3. Les obligations des deux licences s'appliquent donc : si tu modifies ce projet et le sers à autrui sur un réseau, tu dois mettre le code source correspondant à disposition de tes utilisateurs.
