@@ -1,0 +1,12 @@
+# generated test output
+test/out.gcode
+test/out_real.gcode
+
+# OS / editor
+.DS_Store
+*.swp
+Thumbs.db
+
+# local scratch
+__pycache__/
+*.py[cod]
